@@ -52,6 +52,3 @@ python main.py --live --synthetic
 ## Datasets
 While this project includes a synthetic generator, it is designed to be compatible with public datasets such as:
 - **MODMA Dataset**: Multi-modal Open Dataset for Mental-disorder Analysis.
-
-## License
-MIT
