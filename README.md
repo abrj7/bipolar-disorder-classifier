@@ -48,8 +48,3 @@ python main.py --live --synthetic
     - Alpha Band: 8-13 Hz
     - Asymmetry Index: $(R - L) / (R + L)$
 - **Classifier**: Random Forest (100 trees)
-
-## Datasets
-While this project includes a synthetic generator, it is designed to be compatible with public datasets such as:
-- **MODMA Dataset**: Multi-modal Open Dataset for Mental-disorder Analysis.
-- Note that this was done based on an hackathon idea that never came to life. 
