@@ -47,4 +47,3 @@ python main.py --live --synthetic
 - **Feature Extraction**: 
     - Alpha Band: 8-13 Hz
     - Asymmetry Index: $(R - L) / (R + L)$
-- **Classifier**: Random Forest (100 trees)
