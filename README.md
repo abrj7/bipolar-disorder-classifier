@@ -1,8 +1,8 @@
-# AI-Based Bipolar Disorder Classifier
+# bipolar disorder classifier
 
-An EEG-driven Brain-Computer Interface (BCI) pipeline designed to detect neural biomarkers associated with the depressive phase of Bipolar Disorder. This project uses Python, OpenViBE/LSL for streaming, and Machine Learning to analyze brainwaves in real-time.
+an EEG-driven Brain-Computer Interface (BCI) pipeline designed to detect neural biomarkers associated with the depressive phase of Bipolar Disorder. This project uses Python, OpenViBE/LSL for streaming, and Machine Learning to analyze brainwaves in real-time.
 
-## Features
+## features
 
 - **Real-time EEG Streaming**: Uses Lab Streaming Layer (LSL) to acquire data from BCI hardware (or synthetic sources).
 - **Signal Processing**: Implements bandpass filtering (1-50Hz) and Welch's method for Power Spectral Density (PSD) estimation.
@@ -10,7 +10,7 @@ An EEG-driven Brain-Computer Interface (BCI) pipeline designed to detect neural 
 - **Machine Learning**: Uses a Random Forest Classifier to distinguish between "Normal" and "Depressive" states.
 - **Synthetic Data Generator**: Includes a module to generate synthetic EEG data for training and testing without hardware.
 
-## Installation
+## installation
 
 1. Clone the repository.
 2. Install dependencies:
@@ -18,7 +18,7 @@ An EEG-driven Brain-Computer Interface (BCI) pipeline designed to detect neural 
    pip install -r requirements.txt
    ```
 
-## Usage
+## usage
 
 ### 1. Train the Model
 Generate synthetic data and train the Random Forest classifier:
@@ -40,7 +40,7 @@ To simulate a live BCI stream for testing:
 python main.py --live --synthetic
 ```
 
-## Technical Details
+## technical details
 
 - **Sampling Rate**: 256 Hz
 - **Channels**: 4 (Default: F3, F4, etc.)
